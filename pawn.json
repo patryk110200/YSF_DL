@@ -9,14 +9,14 @@
       "archive": true,
       "platform": "windows",
       "includes": ["pawno/include"],
-      "plugins": ["plugins/YSF.dll"]
+      "plugins": ["plugins/YSF_DL.dll"]
     },
     {
       "name": "YSF.*\\.zip",
       "archive": true,
       "platform": "linux",
       "includes": ["pawno/include"],
-      "plugins": ["plugins/YSF.so"]
+      "plugins": ["plugins/YSF_DL.so"]
     }
   ]
 }
